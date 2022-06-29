@@ -1,0 +1,56 @@
+@font-face {
+  font-family: Lato;
+  src: url('./font/Lato-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Saira Condensed';
+  src: url('./font/SairaCondensed-Regular.ttf');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #393e46;
+  font-family: Lato;
+}
+
+main {
+  background-color: #f7fffa;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #222831;
+  font-family: 'Saira Condensed';
+}
+
+header {
+  display: block;
+  text-align: center;
+  background-color: #11bec6;
+  padding: 16px;
+}
+
+header>h1 {
+  color: #ffffff;
+}
+
+nav>ul {
+  display: flex;
+  position: relative;
+  list-style: none;
+  background-color: #00adb5;
+}
+
+nav li {
+  padding: 16px;
+  color: #eeeeee;
+}
+
+nav li:hover {
+  background-color: #11bec6;
+  font-size: large;
+  cursor: pointer;
+}
+
